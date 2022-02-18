@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background: linear-gradient(#172226, #d81537)
+}
+
+h1 {
+    font-family: Arial, Times, serif;
+    color: white;
+    text-shadow: 1px 1px white;
+}
+
+table {
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    background: #DCDCDC;
+    overflow: scroll;
+}
+
+th {
+    color: black;
+    font-size: 24px;
+    padding: 16px;
+}
+
+td {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+
+tr {
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+th,
+td {
+    border-collapse: collapse;
+    text-shadow: 1px 1px black;
+}
+
+td:hover,
+th:hover {
+    background-color: rgb(238, 178, 176);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.view-btn {
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+    border: none;
+    width: 50px;
+    height: 18px;
+    border-radius: 1rem;
+}
+
+.view-btn:hover {
+    background-color: rgb(46, 46, 165);
+    color: rgb(255, 255, 255);
+}
+
+.view {
+    top: 60%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ho {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.home-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+    border: none;
+}
+
+.home-btn:hover {
+    background-color: rgb(0, 0, 10);
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 32px;
+}
